@@ -7,6 +7,7 @@ function displayWeatherCondition(response) {
     let timeElement = document.querySelector("#time");
     let date = new Date(response.data.time * 1000);
 
+    
 
     temperatureElement.innerHTML = Math.round(response.data.temperature.current);
     descriptionElement.innerHTML = response.data.condition.description;
