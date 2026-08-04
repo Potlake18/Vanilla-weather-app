@@ -23,7 +23,7 @@ function formatDate(date) {
     if (minutes < 10) {
         minutes = `0${minutes}`;
     }
-    return `${date.getHours()}:${minutes}`;
+    return `${day} ${hours}:${minutes}`;
 }
 function searchCity(city) {
     let apiKey = "0aeta601556c13caob443ba54543f7b0";
